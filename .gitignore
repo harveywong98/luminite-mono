@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Project
+/dist/
+.venv/
+.DS_Store
+uv.lock
+.idea/*

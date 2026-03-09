@@ -1,0 +1,24 @@
+[project]
+name = "luminite-mono"
+version = "0.1.0"
+description = "A font build pipeline merging IBM Plex Mono with additional glyphs"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+    { name = "Harvey" },
+]
+classifiers = [
+    "Topic :: Text Processing :: Fonts",
+    "Development Status :: 3 - Alpha",
+]
+dependencies = [
+    "fonttools>=4.61.1",
+]
+
+[project.scripts]
+build = "main:main"
+
+# [build-system]
+# requires = ["hatchling"]
+# build-backend = "hatchling.build"
